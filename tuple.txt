@@ -1,0 +1,29 @@
+Tuples:
+
+Tuples are used to store multiple items in a single variable.It is a collection which is ordered and unchangeable.
+Tuples are written with round brackets.
+
+Example:
+
+fruit = ("apple", "banana", "cherry")
+print(fruit)
+
+
+
+----------------
+
+
+to change tuple value:
+
+>>>
+>>> x = ("laptop", "mouse", "headphones", "key")
+>>>
+>>> print(x)
+('laptop', 'mouse', 'headphones', 'key')
+>>>
+>>> y = list(x)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: 'list' object is not callable
+>>>
+

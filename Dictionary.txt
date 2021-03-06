@@ -1,0 +1,61 @@
+Dict:
+
+Dictionaries are used to store data values in key:value pairs.
+A dictionary is a collection which is ordered, changeable and does not allow duplicates.
+
+It is written with curly brackets and have keys and values:
+
+Example:
+
+
+dict = {'name': 'yashi', 'age': '25', 'month': 'Dec'}
+print(dict)
+{'name': 'yashi', 'age': '25', 'month': 'Dec'}
+
+
+---------
+To update key value:
+
+dict.update({'name': 'prayashi'})
+print(dict)
+{'name': 'prayashi', 'age': '25', 'month': 'Dec'}
+
+--------
+
+
+To add a key:
+
+dict['year'] = "1995"
+print(dict)
+{'name': 'prayashi', 'age': '25', 'month': 'Dec', 'year': '1995'}
+
+--------
+
+Example 2:
+
+
+team = {'germany':'10', 'india':'9', 'usa':'5', 'uk': '7'}
+print(team)
+{'germany': '10', 'india': '9', 'usa': '5', 'uk': '7'}
+
+team['pak'] = '4'
+print(team)
+{'germany': '10', 'india': '9', 'usa': '5', 'uk': '7', 'pak': '4'}
+
+---------------
+
+To list key and values:
+
+print(team.keys())
+dict_keys(['germany', 'india', 'usa', 'uk', 'pak'])
+
+print(team.values())
+dict_values(['10', '9', '5', '7', '4'])
+
+
+
+
+
+
+
+

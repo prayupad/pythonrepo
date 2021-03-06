@@ -1,0 +1,23 @@
+Slicing in Python:
+
+
+The slice() function returns a slice object.
+
+You can specify where to start the slicing, and where to end. You can also specify the step.
+
+Example:
+
+>>> string = 'Prayashi'
+>>> slice(2)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: 'int' object is not callable
+>>>
+>>> s1 = slice(2)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: 'int' object is not callable
+>>>
+>>>
+
+

@@ -1,0 +1,48 @@
+List:
+List are used to store multiple values in a variable. It could have duplicate values and use indexing.
+
+Example:
+
+name = ["Yashi", "Prayashi", "Yash"]
+print(name)
+
+---------------
+
+To update value:
+
+fruits = ["apple", "banana", "cherry", "orange", "kiwi", "mango"]
+fruits[0:3] = ["watermelon", "guava"]
+print(fruits)
+['watermelon', 'guava', 'orange', 'kiwi', 'mango']
+
+
+----------------
+Append: To add the item in existing list
+
+list1.append(6)
+print(list1)
+[1, 2, 3, 4, 5, 6]
+
+----------------
+
+To remove item:
+
+>>> list = [1,2,3,4,5,8]
+>>> list.remove(5)
+>>> print(list)
+[1, 2, 3, 4, 8]
+
+---------------
+
+
+---------------
+Extend: To join the 2 lists
+
+list1 = [1,2,3]
+list2 = [4,5]
+list1.extend(list2)
+print(list1)
+[1, 2, 3, 4, 5]
+
+
+

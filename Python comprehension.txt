@@ -1,0 +1,54 @@
+Python Comprehension:
+
+1- List Comprehension:
+
+List comprehension offers a shorter syntax when you want to create a new list based on the values of an existing list.
+
+Example:
+
+Based on a list of names, you want a new list, containing only the name with the letter "b" in the name.
+
+>>> name = ["cris", "bianca", "nick", "sam"]
+>>> print(name)
+['cris', 'bianca', 'nick', 'sam']
+>>>
+>>>
+>>> newname = [x for x in name if "b" in x]
+>>> print(newname)
+['bianca']
+>>>
+>>>
+
+----------------------
+
+2- Sets comprehension:
+
+Example 1:
+num = {x + x for x in range(10)}
+print(num)
+{0, 2, 4, 6, 8, 10, 12, 14, 16, 18}
+
+
+set = {"yashi","prayashi","priya","akks"}
+print(set)
+{'akks', 'yashi', 'priya', 'prayashi'}
+
+Example 2:
+
+newset = {x for x in set if "p" in x}
+print(newset)
+{'priya', 'prayashi'}
+
+-----------------------
+
+
+3- Dict comprehension
+
+
+num = {x: x + x for x in range(10)}
+print(num)
+{0: 0, 1: 2, 2: 4, 3: 6, 4: 8, 5: 10, 6: 12, 7: 14, 8: 16, 9: 18}
+
+
+
+
